@@ -220,8 +220,8 @@
 .about {
   padding: 35px 0px 0px 71px;
   display: grid;
-  gap: 50px;
-  grid-auto-flow: column;
+  gap: 72px;
+  grid-template-columns: 240px 690px;
 }
 
 .about__logo {
@@ -232,7 +232,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .about__logo-image {
