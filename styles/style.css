@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 102px 50px 86px;
 }
 
 .header__menu {
@@ -21,6 +21,11 @@
 
 .header__link {
   text-decoration: underline;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header__link_active {
@@ -46,6 +51,11 @@
 
 .address__link {
   text-decoration: underline;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .cover {
@@ -74,6 +84,7 @@
 
 .aligned-text {
   display: block;
+  margin-bottom: 20px;
 }
 
 .aligned-text_center {
@@ -91,10 +102,14 @@
 }
 
 .cover__description-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
   color: #FFFFFF;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -104,6 +119,13 @@
   padding: 12px 32px;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .lots {
@@ -189,9 +211,9 @@
 }
 
 .about {
-  padding: 35px 0px 0px 47px;
+  padding: 35px 0px 0px 71px;
   display: grid;
-  gap: 40px;
+  gap: 72px;
   grid-auto-flow: column;
 }
 
@@ -213,7 +235,13 @@
 .about__title {
   margin-top: 98px;
   margin-bottom: 100px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .about__text {
@@ -226,7 +254,7 @@
 }
 
 .footer {
-  margin-top: 180px;
+  margin-top: 210px;
   display: grid;
   grid-template-columns: 265px 1fr 1fr;
   padding: 0 50px 80px;
@@ -235,6 +263,7 @@
 
 .footer__menu {
   justify-self: center;
+  margin-left: 103px
 }
 
 .footer__menu-list {
